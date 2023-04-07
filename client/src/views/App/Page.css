@@ -1,0 +1,13 @@
+.Page {
+  background-color: #f2f2f2;
+}
+.Header {
+  background-color: #f18f01ff;
+  padding: 25px 0 25px 0;
+}
+.Body {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px 0 25px 0;
+}
