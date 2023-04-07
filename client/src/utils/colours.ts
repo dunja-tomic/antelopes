@@ -7,8 +7,3 @@ export const colours = [
   "#3b1f2bff",
   "#2e86abff",
 ];
-
-// export const pickRandomColour = () => {
-//   const num = Math.floor(Math.random() * (colours.length - 1));
-//   return colours[num];
-// };

@@ -1,6 +1,6 @@
-# The Great Antelope A...
+# The Great Antelope Adventure
 
-Welcome to the Antelope Adventure web app monorepo.
+Welcome to the Antelope Adventure web app monorepo. This is the Internet's leading source of antelope information. Server code and startup instructions are found in `/server`, and client code and related startup instructions are found in `/client`.
 
 These are the stack components that were used:
 

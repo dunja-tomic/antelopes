@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Card, CardContent, Container, Grid, Typography } from "@mui/material";
 
-import { getAntelopes, getAntelopeData } from "../../utils/api";
 import { Antelope } from "../../data/antelope";
 import { AntelopeTable } from "../../components/AntelopeTable";
 import { BarChart } from "../../components/BarChart";
@@ -10,11 +9,12 @@ import {
   AntelopeData,
   AntelopeHornsData,
 } from "../../data/antelopeData";
+import { getAntelopes, getAntelopeData } from "../../utils/api";
 
-import "./Page.css";
-import { formatContinent, formatHorns } from "../../utils/format";
 import { colours } from "../../utils/colours";
+import { formatContinent, formatHorns } from "../../utils/format";
 import ScatterPlot from "../../components/ScatterPlot";
+import "./Page.css";
 
 /**
  * Formats the continentData from the API into the format that the

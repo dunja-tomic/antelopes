@@ -1,6 +1,11 @@
 # Backend
 
-This folder contains the code for the backend of the Great Antelope A... web application.
+This folder contains the code for the backend of The Great Antelope Adventure web application.
+
+## Available routes
+
+- `GET /antelopes` returns information about all the antelopes in the database
+- `GET /antelopes/data` returns aggregated data about antelopes, namely how many species live on each continent and how many have each type of horns.
 
 ## How to run
 
@@ -44,4 +49,4 @@ Then, run the dev server.
 npm run start
 ```
 
-The app is now running - navigate to [`http://localhost:3001/`](http://localhost:3001/) and you should see a message that says "Hello World".
+The app is now running - navigate to [`http://localhost:3001/`](http://localhost:3001/) and you should see a success message.
